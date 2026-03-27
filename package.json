@@ -4,11 +4,17 @@
   "description": "MCP server that checks domain availability during brand naming — never recommend a name without a domain again",
   "type": "module",
   "bin": {
-    "mcp-domain-radar": "./dist/index.js"
+    "mcp-domain-radar": "dist/index.js"
   },
   "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
+    "prepublishOnly": "npm run build",
     "start": "node dist/index.js",
     "dev": "tsc --watch"
   },
@@ -37,6 +43,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sonwr/mcp-domain-radar.git"
+    "url": "git+https://github.com/sonwr/mcp-domain-radar.git"
   }
 }
