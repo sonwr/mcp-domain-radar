@@ -6,12 +6,12 @@
     "url": "https://github.com/sonwr/mcp-domain-radar",
     "source": "github"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "mcp-domain-radar",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "transport": {
         "type": "stdio"
       }
