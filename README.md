@@ -4,6 +4,12 @@
   <img src="assets/logo.svg" alt="domain-radar" width="400"/>
 </p>
 
+<p align="center">
+  <a href="https://www.npmjs.com/package/mcp-domain-radar"><img src="https://img.shields.io/npm/v/mcp-domain-radar.svg?style=flat-square" alt="npm version"></a>
+  <a href="https://www.npmjs.com/package/mcp-domain-radar"><img src="https://img.shields.io/npm/dm/mcp-domain-radar.svg?style=flat-square" alt="npm downloads"></a>
+  <a href="https://github.com/sonwr/mcp-domain-radar/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/mcp-domain-radar.svg?style=flat-square" alt="license"></a>
+</p>
+
 > **MCP server that checks domain availability in real-time during brand naming.**
 >
 > Name your brand. Check the domain. All in one conversation.
