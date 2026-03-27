@@ -10,6 +10,11 @@
   <a href="https://github.com/sonwr/mcp-domain-radar/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/mcp-domain-radar.svg?style=flat-square" alt="license"></a>
 </p>
 
+<p align="center">
+  <b>Works with</b><br/>
+  <code>Claude Code</code> · <code>Claude Desktop</code> · <code>Cursor</code> · <code>Codex CLI</code> · any MCP-compatible client
+</p>
+
 > **MCP server that checks domain availability in real-time during brand naming.**
 >
 > Name your brand. Check the domain. All in one conversation.
@@ -43,13 +48,57 @@ Install **mcp-domain-radar** once, and your AI checks domain availability the mo
 npm install -g mcp-domain-radar
 ```
 
-**2. Connect to Claude Code**
+**2. Connect to your AI coding tool**
+
+<details>
+<summary><b>Claude Code</b></summary>
 
 ```bash
 claude mcp add domain-radar -- mcp-domain-radar
 ```
+</details>
 
-**3. Install the brand-naming skill** (optional but recommended)
+<details>
+<summary><b>Codex CLI</b></summary>
+
+```bash
+codex mcp add domain-radar -- npx mcp-domain-radar
+```
+</details>
+
+<details>
+<summary><b>Cursor</b></summary>
+
+Add to `.cursor/mcp.json`:
+```json
+{
+  "mcpServers": {
+    "domain-radar": {
+      "command": "npx",
+      "args": ["mcp-domain-radar"]
+    }
+  }
+}
+```
+</details>
+
+<details>
+<summary><b>Claude Desktop</b></summary>
+
+Add to `claude_desktop_config.json`:
+```json
+{
+  "mcpServers": {
+    "domain-radar": {
+      "command": "npx",
+      "args": ["mcp-domain-radar"]
+    }
+  }
+}
+```
+</details>
+
+**3. Install the brand-naming skill** (optional, Claude Code only)
 
 ```bash
 mkdir -p ~/.claude/skills/brand-naming
@@ -162,35 +211,6 @@ Your question
 - **No API keys required** — uses native DNS and WHOIS protocols
 - **Rate-limit friendly** — batches queries with delays
 - **Works offline for DNS checks** — WHOIS requires network
-
----
-
-## Manual Setup (alternative)
-
-If you prefer to configure manually, add to `~/.claude/settings.json`:
-
-```json
-{
-  "mcpServers": {
-    "domain-radar": {
-      "command": "mcp-domain-radar"
-    }
-  }
-}
-```
-
-Or run from source:
-
-```json
-{
-  "mcpServers": {
-    "domain-radar": {
-      "command": "node",
-      "args": ["/path/to/mcp-domain-radar/dist/index.js"]
-    }
-  }
-}
-```
 
 ---
 

@@ -20,13 +20,19 @@
   },
   "keywords": [
     "mcp",
+    "mcp-server",
+    "model-context-protocol",
     "domain",
+    "domain-availability",
     "brand",
+    "brand-naming",
     "naming",
     "whois",
     "claude",
+    "claude-code",
+    "codex",
     "ai",
-    "model-context-protocol"
+    "ai-tools"
   ],
   "author": "",
   "license": "MIT",
