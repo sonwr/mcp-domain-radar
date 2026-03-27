@@ -1,6 +1,6 @@
 # mcp-domain-radar
 
-> **AI가 이름을 추천할 때, 도메인까지 같이 확인해주는 MCP 서버**
+> **MCP server that checks domain availability in real-time during brand naming.**
 >
 > Name your brand. Check the domain. All in one conversation.
 
@@ -11,17 +11,17 @@
 We've all been there:
 
 ```
-You:    "서비스 이름 추천해줘"
-AI:     "NexFlow는 어떨까요?"
-You:     nexflow.com 검색... 이미 선점됨
-You:    "다른 거"
-AI:     "DataPulse는요?"
-You:     datapulse.com 검색... 역시 선점됨
+You:    "Suggest a name for my service"
+AI:     "How about NexFlow?"
+You:     Search nexflow.com... already taken
+You:    "Another one"
+AI:     "DataPulse?"
+You:     Search datapulse.com... also taken
 You:    "..."
-        (이걸 10번 반복)
+        (repeat 10 times)
 ```
 
-**mcp-domain-radar**를 설치하면, AI가 이름을 떠올리는 순간 도메인 가용 여부를 바로 확인합니다. 더 이상 브라우저와 터미널을 왔다갔다 할 필요가 없습니다.
+Install **mcp-domain-radar** once, and your AI checks domain availability the moment it thinks of a name. No more switching between browser and terminal.
 
 ---
 
@@ -76,7 +76,7 @@ That's it. Claude will automatically check domains as it brainstorms.
 
 ## Examples
 
-### "이 이름 도메인 되나요?"
+### Check a specific name
 ```
 You: Check if "nexflow" is available — try .com, .io, .ai, and .dev
 ```
@@ -92,7 +92,7 @@ TAKEN:
 --- 2 available / 2 taken / 0 unknown ---
 ```
 
-### "키워드로 이름 만들어줘"
+### Brainstorm from keywords
 ```
 You: I need a name for an AI code review tool.
      Keywords: code, review, pulse, scan.
