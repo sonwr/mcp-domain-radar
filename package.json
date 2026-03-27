@@ -50,5 +50,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sonwr/mcp-domain-radar.git"
-  }
+  },
+  "mcpName": "io.github.sonwr/domain-radar"
 }
