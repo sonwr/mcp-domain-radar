@@ -1,5 +1,9 @@
 # mcp-domain-radar
 
+<p align="center">
+  <img src="assets/logo.svg" alt="domain-radar" width="400"/>
+</p>
+
 > **MCP server that checks domain availability in real-time during brand naming.**
 >
 > Name your brand. Check the domain. All in one conversation.

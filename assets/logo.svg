@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="320" height="200">
+  <style>
+    .bg { fill: #0d1117; }
+    .p1 { fill: #58a6ff; }
+    .p2 { fill: #39d353; }
+    .p3 { fill: #f0883e; }
+    .p4 { fill: #ff7b72; }
+    .p5 { fill: #d2a8ff; }
+    .eye { fill: #f0f6fc; }
+    .dot { fill: #58a6ff; opacity: 0.3; }
+  </style>
+
+  <rect class="bg" width="320" height="200" rx="12"/>
+
+  <!-- Radar waves (top) -->
+  <rect class="dot" x="148" y="16" width="8" height="8"/>
+  <rect class="dot" x="164" y="16" width="8" height="8"/>
+  <rect class="dot" x="132" y="8" width="8" height="8"/>
+  <rect class="dot" x="180" y="8" width="8" height="8"/>
+
+  <rect class="p5" x="148" y="28" width="8" height="8"/>
+  <rect class="p5" x="164" y="28" width="8" height="8"/>
+  <rect class="p5" x="140" y="24" width="8" height="8"/>
+  <rect class="p5" x="172" y="24" width="8" height="8"/>
+
+  <!-- Antenna -->
+  <rect class="p1" x="156" y="36" width="8" height="8"/>
+
+  <!-- Invader head row 1 -->
+  <rect class="p1" x="132" y="48" width="8" height="8"/>
+  <rect class="p1" x="140" y="48" width="8" height="8"/>
+  <rect class="p1" x="148" y="48" width="8" height="8"/>
+  <rect class="p1" x="156" y="48" width="8" height="8"/>
+  <rect class="p1" x="164" y="48" width="8" height="8"/>
+  <rect class="p1" x="172" y="48" width="8" height="8"/>
+  <rect class="p1" x="180" y="48" width="8" height="8"/>
+
+  <!-- Head row 2 -->
+  <rect class="p1" x="124" y="56" width="8" height="8"/>
+  <rect class="p1" x="132" y="56" width="8" height="8"/>
+  <rect class="p1" x="140" y="56" width="8" height="8"/>
+  <rect class="p1" x="148" y="56" width="8" height="8"/>
+  <rect class="p1" x="156" y="56" width="8" height="8"/>
+  <rect class="p1" x="164" y="56" width="8" height="8"/>
+  <rect class="p1" x="172" y="56" width="8" height="8"/>
+  <rect class="p1" x="180" y="56" width="8" height="8"/>
+  <rect class="p1" x="188" y="56" width="8" height="8"/>
+
+  <!-- Eyes row -->
+  <rect class="p1" x="116" y="64" width="8" height="8"/>
+  <rect class="p1" x="124" y="64" width="8" height="8"/>
+  <rect class="eye" x="132" y="64" width="8" height="8"/>
+  <rect class="p2" x="140" y="64" width="8" height="8"/>
+  <rect class="p1" x="148" y="64" width="8" height="8"/>
+  <rect class="p1" x="156" y="64" width="8" height="8"/>
+  <rect class="p1" x="164" y="64" width="8" height="8"/>
+  <rect class="p2" x="172" y="64" width="8" height="8"/>
+  <rect class="eye" x="180" y="64" width="8" height="8"/>
+  <rect class="p1" x="188" y="64" width="8" height="8"/>
+  <rect class="p1" x="196" y="64" width="8" height="8"/>
+
+  <!-- Body row 1 -->
+  <rect class="p1" x="116" y="72" width="8" height="8"/>
+  <rect class="p1" x="124" y="72" width="8" height="8"/>
+  <rect class="p1" x="132" y="72" width="8" height="8"/>
+  <rect class="p1" x="140" y="72" width="8" height="8"/>
+  <rect class="p1" x="148" y="72" width="8" height="8"/>
+  <rect class="p1" x="156" y="72" width="8" height="8"/>
+  <rect class="p1" x="164" y="72" width="8" height="8"/>
+  <rect class="p1" x="172" y="72" width="8" height="8"/>
+  <rect class="p1" x="180" y="72" width="8" height="8"/>
+  <rect class="p1" x="188" y="72" width="8" height="8"/>
+  <rect class="p1" x="196" y="72" width="8" height="8"/>
+
+  <!-- Body row 2 (with gaps) -->
+  <rect class="p1" x="116" y="80" width="8" height="8"/>
+  <rect class="p1" x="132" y="80" width="8" height="8"/>
+  <rect class="p1" x="140" y="80" width="8" height="8"/>
+  <rect class="p1" x="148" y="80" width="8" height="8"/>
+  <rect class="p1" x="156" y="80" width="8" height="8"/>
+  <rect class="p1" x="164" y="80" width="8" height="8"/>
+  <rect class="p1" x="172" y="80" width="8" height="8"/>
+  <rect class="p1" x="180" y="80" width="8" height="8"/>
+  <rect class="p1" x="196" y="80" width="8" height="8"/>
+
+  <!-- Body row 3 -->
+  <rect class="p1" x="124" y="88" width="8" height="8"/>
+  <rect class="p1" x="140" y="88" width="8" height="8"/>
+  <rect class="p1" x="156" y="88" width="8" height="8"/>
+  <rect class="p1" x="172" y="88" width="8" height="8"/>
+  <rect class="p1" x="188" y="88" width="8" height="8"/>
+
+  <!-- Legs -->
+  <rect class="p1" x="132" y="96" width="8" height="8"/>
+  <rect class="p1" x="140" y="96" width="8" height="8"/>
+  <rect class="p1" x="172" y="96" width="8" height="8"/>
+  <rect class="p1" x="180" y="96" width="8" height="8"/>
+
+  <rect class="p1" x="124" y="104" width="8" height="8"/>
+  <rect class="p1" x="132" y="104" width="8" height="8"/>
+  <rect class="p1" x="180" y="104" width="8" height="8"/>
+  <rect class="p1" x="188" y="104" width="8" height="8"/>
+
+  <!-- Domain bullets shooting -->
+  <!-- .com -->
+  <rect class="p2" x="44" y="128" width="8" height="8"/>
+  <rect class="p2" x="52" y="128" width="8" height="8"/>
+  <rect class="p2" x="60" y="128" width="8" height="8"/>
+  <text x="42" y="148" fill="#39d353" font-family="monospace" font-size="11" font-weight="bold">.com</text>
+
+  <!-- .ai -->
+  <rect class="p3" x="108" y="136" width="8" height="8"/>
+  <rect class="p3" x="116" y="136" width="8" height="8"/>
+  <text x="108" y="156" fill="#f0883e" font-family="monospace" font-size="11" font-weight="bold">.ai</text>
+
+  <!-- .dev -->
+  <rect class="p5" x="160" y="128" width="8" height="8"/>
+  <rect class="p5" x="168" y="128" width="8" height="8"/>
+  <rect class="p5" x="176" y="128" width="8" height="8"/>
+  <text x="156" y="148" fill="#d2a8ff" font-family="monospace" font-size="11" font-weight="bold">.dev</text>
+
+  <!-- .io -->
+  <rect class="p4" x="224" y="136" width="8" height="8"/>
+  <rect class="p4" x="232" y="136" width="8" height="8"/>
+  <text x="222" y="156" fill="#ff7b72" font-family="monospace" font-size="11" font-weight="bold">.io</text>
+
+  <!-- Title -->
+  <text x="160" y="182" fill="#f0f6fc" font-family="monospace" font-size="14" font-weight="bold" text-anchor="middle">domain-radar</text>
+  <text x="160" y="195" fill="#8b949e" font-family="monospace" font-size="9" text-anchor="middle">scan domains. find names. ship faster.</text>
+</svg>
