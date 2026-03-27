@@ -39,14 +39,27 @@ npm install -g mcp-domain-radar
 claude mcp add domain-radar -- mcp-domain-radar
 ```
 
-**3. Use it** — just talk to Claude naturally:
+**3. Install the brand-naming skill** (optional but recommended)
+
+```bash
+mkdir -p ~/.claude/skills/brand-naming
+cp node_modules/mcp-domain-radar/.claude/skills/brand-naming/SKILL.md ~/.claude/skills/brand-naming/
+```
+
+Or copy it manually from the [GitHub repo](.claude/skills/brand-naming/SKILL.md).
+
+**4. Use it**
+
+With the skill installed, type `/brand-naming` in Claude Code to start a guided naming session.
+
+Or just talk naturally:
 
 ```
 "I'm building a task management app for developers.
  Help me find a brand name with an available domain."
 ```
 
-That's it. Claude will automatically check domains as it brainstorms.
+Claude will automatically check domains as it brainstorms.
 
 ---
 
