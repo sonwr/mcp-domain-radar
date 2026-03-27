@@ -1,6 +1,6 @@
 {
   "name": "mcp-domain-radar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server that checks domain availability during brand naming — never recommend a name without a domain again",
   "type": "module",
   "bin": {
